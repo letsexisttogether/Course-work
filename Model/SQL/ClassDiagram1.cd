@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Controllers.Enter.LoginController" Collapsed="true">
+    <Position X="12.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\Enter\LoginController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Controllers.MainPart.AccountController" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAACAAAQAgAAAAAQAAAAAAAAAAAAAECAQAAAAA=</HashCode>
+      <FileName>Controllers\MainPart\AccountController\AccountController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Controllers.MainPart.AuthorController" Collapsed="true">
+    <Position X="12.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAFIAAEAAAACAAAAAAAACAAYBAGAAAAAIAAACA=</HashCode>
+      <FileName>Controllers\MainPart\AuthorController\AuthorController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Controllers.MainPart.ImagesController" Collapsed="true">
+    <Position X="12.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGOCQgIAAGgQAIAAggQABQIFABABAAAEACEACAARg=</HashCode>
+      <FileName>Controllers\MainPart\ImagesController\ImagesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Controllers.MainPart.UserController" Collapsed="true">
+    <Position X="12.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAVAAUAAAAABAAAAAQAEAAGgAAIAEBAEAAAMABAA=</HashCode>
+      <FileName>Controllers\MainPart\UserController\UserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Controllers.Registration.AccountRegistrationController" Collapsed="true">
+    <Position X="1" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\Registration\AccountRegistrationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Controllers.Registration.AuthorRegistrationController" Collapsed="true">
+    <Position X="1" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAEAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\Registration\AuthorRegistrationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Controllers.Registration.UserRegistrationController" Collapsed="true">
+    <Position X="1" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\Registration\UserRegistrationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Entities.Account" Collapsed="true">
+    <Position X="14.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAQAAAAAAACAA=</HashCode>
+      <FileName>Model\Entities\Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Entities.AppUser" Collapsed="true">
+    <Position X="14.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAgAAAAgAACAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Model\Entities\AppUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Entities.Author" Collapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgEAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Model\Entities\Author.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Entities.AuthorRank" Collapsed="true">
+    <Position X="14.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Entities\AuthorRank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Entities.DesktopImage" Collapsed="true">
+    <Position X="14.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEIAAQAAAAAAQAgAAAAAAAAAAAiEAABAAAAAAAAA=</HashCode>
+      <FileName>Model\Entities\DesktopImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Entities.DesktopImageLabel" Collapsed="true">
+    <Position X="10.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAIAAQAAAAA=</HashCode>
+      <FileName>Model\Entities\DesktopImageLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Entities.Label" Collapsed="true">
+    <Position X="10.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Entities\Label.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Entities.UserDesktopImage" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAgAAAAAAAAAAAgAAAAAAAEAAAAAAQAAAAA=</HashCode>
+      <FileName>Model\Entities\UserDesktopImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Processors.ImageDesktopSetter" Collapsed="true">
+    <Position X="10.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAFAAAAAAAAAAIAAANAAAAAAAAAAEACAAQ=</HashCode>
+      <FileName>Model\Processors\ImageDesktopSetter\ImageDesktopSetter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Processors.ImageFileProcessor" Collapsed="true">
+    <Position X="9" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAADA=</HashCode>
+      <FileName>Model\Processors\ImageFileProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Processors.ImageParser" Collapsed="true">
+    <Position X="10.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAEAAACAAAABAAIAAAAAiAAAAAQEAAAAAAAAAA=</HashCode>
+      <FileName>Model\Processors\ImageParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Processors.ImagesSorter" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Model\Processors\ImagesSorter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.SQL.AccountQuery" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAAAIAAAEBIAAAAAAAQAAAAAAAAAAAAAAQAQAAAAA=</HashCode>
+      <FileName>Model\SQL\AccountQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.SQL.AuthorQuery" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAIAEAAAAAAQAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Model\SQL\AuthorQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.SQL.AuthorRankQuery" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\SQL\AuthorRankQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.SQL.DesktopImageLabelQuery" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\SQL\DesktopImageLabelQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.SQL.DesktopImageQuery" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAAAAAQAACAAgAAAABAAAAAgAAgAAAAAAAAAACAAA=</HashCode>
+      <FileName>Model\SQL\DesktopImageQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.SQL.EntityQuery&lt;T&gt;" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAABgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\SQL\EntityQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.SQL.LabelQuery" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAA=</HashCode>
+      <FileName>Model\SQL\LabelQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.SQL.UserDesktopImageQuery" Collapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAABAAEAEAACAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\SQL\UserDesktopImageQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.SQL.UserQuery" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAIAAAAAAAAAAAAAAAQAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Model\SQL\UserQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnterProcessHelpful.PasswordProcessor" Collapsed="true">
+    <Position X="9" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAgAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\Enter\EnterProcessHelpful\PasswordProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login.LoginForm" Collapsed="true">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAgAAAbAAAACAAACAAAACAAAACAAgCAAAAgAAEAE=</HashCode>
+      <FileName>View\Enter\Login\LoginForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Registration.AuthorRegistrationForm" Collapsed="true">
+    <Position X="7.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAoAQAjAAAIAggECAAIACEQAACACACAAAAgAAEBA=</HashCode>
+      <FileName>View\Enter\Registration\AuthorRegistrationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Registration.RegistationSelectForm" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAKAAAAAAAACAAABCAQiIAAAAAAAAACQAAAA=</HashCode>
+      <FileName>View\Enter\Registration\RegistationSelectForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Registration.UserRegistrationForm" Collapsed="true">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAoAQAzAAAIAghECEAIACEQgACACACAAAAgEEEBA=</HashCode>
+      <FileName>View\Enter\Registration\UserRegistrationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="View.MainPart.Author.AuthorForm" Collapsed="true">
+    <Position X="7.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YGowUIAihS21BAIgJACASg4DGgQCRAAAUQgSQcAoQgA=</HashCode>
+      <FileName>View\MainPart\Author\AuthorForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="View.MainPart.ImagesViewHelper" Collapsed="true">
+    <Position X="9" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAEQAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>View\MainPart\General\ImagesViewHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="View.MainPart.LabelsViewHelper" Collapsed="true">
+    <Position X="9" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>View\MainPart\General\LabelsViewHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="View.MainPart.User.UserForm" Collapsed="true">
+    <Position X="9" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gtAQ6ACl1uElAAlQjAmsSYViHDQSJRBaDSgQUMGiFRE=</HashCode>
+      <FileName>View\MainPart\User\UserForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Course_work.Program" Collapsed="true">
+    <Position X="9" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Controllers.Enter.LoginCheckResult" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAQAAAAAAAAAAAAgAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\Enter\LoginCheckResult.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Controllers.MainPart.AccountUpdateResult" Collapsed="true">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAIAAwAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\MainPart\AccountController\AccountUpdateResult.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Controllers.MainPart.AddResult" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\MainPart\AddResult.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Controllers.MainPart.IndexSearchResult" Collapsed="true">
+    <Position X="5.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\MainPart\AuthorController\IndexSearchResult.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Controllers.MainPart.DeleteResult" Collapsed="true">
+    <Position X="3.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\MainPart\DeleteResult.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Controllers.Registration.RegAccountResult" Collapsed="true">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAIAAgAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Controllers\Registration\RegAccountResult.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Model.Processors.SetResult" Collapsed="true">
+    <Position X="3.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Model\Processors\ImageDesktopSetter\SetResult.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
