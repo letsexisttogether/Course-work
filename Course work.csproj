@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{96B838FA-3401-4F74-BBA8-04EDEB8412C1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Course_work</RootNamespace>
+    <AssemblyName>Course work</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\Enter\LoginCheckResult.cs" />
+    <Compile Include="Controllers\Enter\LoginController.cs" />
+    <Compile Include="Controllers\MainPart\AccountController\AccountUpdateResult.cs" />
+    <Compile Include="Controllers\MainPart\AccountController\AccountController.cs" />
+    <Compile Include="Controllers\MainPart\AddResult.cs" />
+    <Compile Include="Controllers\MainPart\AuthorController\AuthorController.cs" />
+    <Compile Include="Controllers\MainPart\DeleteResult.cs" />
+    <Compile Include="Controllers\MainPart\ImagesController\ImagesController.cs" />
+    <Compile Include="Controllers\MainPart\AuthorController\IndexSearchResult.cs" />
+    <Compile Include="Controllers\MainPart\UserController\UserController.cs" />
+    <Compile Include="Controllers\Registration\AccountRegistrationController.cs" />
+    <Compile Include="Controllers\Registration\AuthorRegistrationController.cs" />
+    <Compile Include="Controllers\Registration\RegAccountResult.cs" />
+    <Compile Include="Controllers\Registration\UserRegistrationController.cs" />
+    <Compile Include="Model\Entities\Account.cs" />
+    <Compile Include="Model\Entities\AppUser.cs" />
+    <Compile Include="Model\Entities\Author.cs" />
+    <Compile Include="Model\Entities\AuthorRank.cs" />
+    <Compile Include="Model\Entities\DesktopImage.cs" />
+    <Compile Include="Model\Entities\DesktopImageLabel.cs" />
+    <Compile Include="Model\Entities\Label.cs" />
+    <Compile Include="Model\Entities\UserDesktopImage.cs" />
+    <Compile Include="Model\Processors\ImageDesktopSetter\SetResult.cs" />
+    <Compile Include="Model\Processors\ImageFileProcessor.cs" />
+    <Compile Include="Model\Processors\ImageParser.cs" />
+    <Compile Include="Model\Processors\ImageDesktopSetter\ImageDesktopSetter.cs" />
+    <Compile Include="Model\Processors\ImagesSorter.cs" />
+    <Compile Include="Model\SQL\AccountQuery.cs" />
+    <Compile Include="Model\SQL\AuthorQuery.cs" />
+    <Compile Include="Model\SQL\AuthorRankQuery.cs" />
+    <Compile Include="Model\SQL\DesktopImageLabelQuery.cs" />
+    <Compile Include="Model\SQL\DesktopImageQuery.cs" />
+    <Compile Include="Model\SQL\EntityQuery.cs" />
+    <Compile Include="Model\SQL\LabelQuery.cs" />
+    <Compile Include="Model\SQL\UserDesktopImageQuery.cs" />
+    <Compile Include="Model\SQL\UserQuery.cs" />
+    <Compile Include="View\Enter\EnterProcessHelpful\PasswordProcessor.cs" />
+    <Compile Include="View\Enter\Login\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Enter\Login\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Enter\Registration\AuthorRegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Enter\Registration\AuthorRegistrationForm.Designer.cs">
+      <DependentUpon>AuthorRegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Enter\Registration\RegistationSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Enter\Registration\RegistationSelectForm.Designer.cs">
+      <DependentUpon>RegistationSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Enter\Registration\UserRegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Enter\Registration\UserRegistrationForm.Designer.cs">
+      <DependentUpon>UserRegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MainPart\Author\AuthorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MainPart\Author\AuthorForm.Designer.cs">
+      <DependentUpon>AuthorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MainPart\General\ImagesViewHelper.cs" />
+    <Compile Include="View\MainPart\General\LabelsViewHelper.cs" />
+    <Compile Include="View\MainPart\User\UserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MainPart\User\UserForm.Designer.cs">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\Enter\Login\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\Enter\Registration\AuthorRegistrationForm.resx">
+      <DependentUpon>AuthorRegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Enter\Registration\RegistationSelectForm.resx">
+      <DependentUpon>RegistationSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Enter\Registration\UserRegistrationForm.resx">
+      <DependentUpon>UserRegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MainPart\Author\AuthorForm.resx">
+      <DependentUpon>AuthorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MainPart\User\UserForm.resx">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Model\SQL\ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="View\Enter\Login\Resources\" />
+    <Folder Include="View\Enter\Registration\Resources\" />
+    <Folder Include="View\MainPart\Author\Resources\" />
+    <Folder Include="View\MainPart\User\Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
